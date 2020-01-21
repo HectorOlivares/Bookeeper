@@ -1,4 +1,6 @@
-                                     ![bookeeperlogo](/Iconos/BOOKEPERYE.png)
+<p align="center">
+  <img width="423" height="88" src="/Iconos/BOOKEPERYE.png">
+</p>
 
 ## Origen
   
