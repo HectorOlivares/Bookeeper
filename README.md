@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="423" height="88" src="/Iconos/BOOKEPERYE.png">
+  <img width="423" height="88" src="/Iconos/bookeeper.png">
 </p>
 
 ## Origen
