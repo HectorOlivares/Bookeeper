@@ -6,17 +6,14 @@
 //  Copyright © 2019 Héctor Olivares. All rights reserved.
 //
 
-#include <stdio.h>
-
 FILE * archivoll;
 char * nombrell = "LibrosLeidos.txt";
 FILE * archivonl;
 char * nombrenl = "NumeroLibros.txt";
-char sino;
-int seleccion;
+int seleccion, sino;
 int opcion;
 char caracter;
-char titulo[100], autor[100], *apTitulo, *apAutor, sino;
+char titulo[100], autor[100], *apTitulo, *apAutor;
 int b;
 
 void librosLeidos(){
@@ -26,9 +23,9 @@ void librosLeidos(){
     printf("\n");
     printf("Seleccione una opcion:\n");
     printf("\n");
-    printf("1) Termine un libro! \t2) Ver mis libros leidos\n");
+    printf("[1] Termine un libro! \t[2] Ver mis libros leidos\n");
     printf("\n");
-    printf("\t3) Numero de libros leidos \t4) Salir\n");
+    printf("\t[3] Numero de libros leidos \t[4] Salir\n");
     printf("\n");
     printf("Seleccion: ");
     scanf("%d", &seleccion);
@@ -36,20 +33,21 @@ void librosLeidos(){
     
     switch (seleccion) {
         case 1:
-    
+            
+            while (opcion !=5) {
                 printf("\n");
                 printf("Felicidades!");
                 printf("\n");
                 printf("Ingrese el titulo del libro\n");
                 printf("Titulo: ");
-                scanf("%s", titulo);
+                scanf("%[^\n]", titulo);
                 fflush(stdin);
                 printf("\n");
                 apTitulo = titulo;
                 printf("Ingrese el autor del libro\n");
                 printf("Tip: Puedes ingresar el nombre de la siguiente forma: A.Turing\n");
                 printf("Autor: ");
-                scanf("%s", autor);
+                scanf("%[^\n]", autor);
                 fflush(stdin);
                 apAutor = autor;
                 printf("\n");
@@ -76,15 +74,26 @@ void librosLeidos(){
                 fprintf(archivoll, "Autor: %s \n", autor);
                 fprintf(archivoll, "---------------------\n");
                 fclose(archivoll);
-                printf("\n");
-                printf("--------------------------------------------------\n");
-                printf("\n");
                 
+                printf("\n");
+                printf("\n");
+                printf("¿Desea agregar otro libro?\n");
+                printf("Si [1] \tNo [2]\n");
+                scanf("%d", &sino);
+                fflush(stdin);
+                if (sino == 2) {
+                    printf("\n");
+                    printf("--------------------------------------------------\n");
+                    printf("\n");
+                    return;
+                }
+                
+            }
             break;
         case 2:
             printf("\n");
             printf("\n");
-            printf("\t//Libros Leidos//\n");
+            printf("\t/// Mi Biblioteca ///\n");
             printf("\n");
             
             archivoll = fopen(nombrell, "r");

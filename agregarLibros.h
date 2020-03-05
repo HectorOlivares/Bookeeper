@@ -6,17 +6,14 @@
 //  Copyright © 2019 Héctor Olivares. All rights reserved.
 //
 
-#include <stdio.h>
-
 FILE * archivoal;
 char * nombreal = "MiBiblioteca.txt";
 FILE * archivogt;
 char * nombregt = "GastoTotal.txt";
-char sino;
-int seleccion, opcion;
+int seleccion, opcion, sino;
 float lYear, lYearRes;
 char caracter;
-char titulo[100], autor[100], *apTitulo, *apAutor, sino;
+char titulo[100], autor[100], *apTitulo, *apAutor;
 
 float promedio(float a, float b);
 
@@ -27,9 +24,9 @@ void agregarLibros(){
     printf("\n");
     printf("Seleccione una opcion:\n");
     printf("\n");
-    printf("1) Agregar libros \t2) Ver Mi Biblioteca\n");
+    printf("[1] Agregar libros \t[2] Ver Mi Biblioteca\n");
     printf("\n");
-    printf("\t3) Promedio de lectura \t\t4) Salir\n");
+    printf("\t[3] Promedio de lectura \t\t[4] Salir\n");
     printf("\n");
     printf("Seleccion: ");
     scanf("%d", &seleccion);
@@ -37,18 +34,20 @@ void agregarLibros(){
     
     switch (seleccion) {
         case 1:
+            
+            while (opcion !=5) {
                 printf("\n");
                 printf("\n");
                 printf("Ingrese el titulo del libro\n");
                 printf("Titulo: ");
-                scanf("%s", titulo);
+                scanf("%[^\n]", titulo);
                 fflush(stdin);
                 printf("\n");
                 apTitulo = titulo;
                 printf("Ingrese el autor del libro\n");
                 printf("Tip: Puedes ingresar el nombre de la siguiente forma: A.Turing\n");
                 printf("Autor: ");
-                scanf("%s", autor);
+                scanf("%[^\n]", autor);
                 fflush(stdin);
                 printf("\n");
                 apAutor = autor;
@@ -66,15 +65,27 @@ void agregarLibros(){
                 fprintf(archivoal, "Autor: %s \n", autor);
                 fprintf(archivoal, "---------------------\n");
                 fclose(archivoal);
-            
+                
                 printf("\n");
-                printf("--------------------------------------------------\n");
                 printf("\n");
+                printf("¿Desea agregar otro libro?\n");
+                printf("Si [1] \tNo [2]\n");
+                scanf("%d", &sino);
+                fflush(stdin);
+                if (sino == 2) {
+                    printf("\n");
+                    printf("--------------------------------------------------\n");
+                    printf("\n");
+                    opcion = 5;
+                    return;
+                }
+                
+            }
             break;
         case 2:
             printf("\n");
             printf("\n");
-            printf("\t//Mi Biblioteca//\n");
+            printf("\t/// Mi Biblioteca ///\n");
             printf("\n");
             
             archivoal = fopen(nombreal, "r");

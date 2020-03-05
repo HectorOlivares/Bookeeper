@@ -6,10 +6,9 @@
 //  Copyright © 2019 Héctor Olivares. All rights reserved.
 //
 
-#include <stdio.h>
 FILE * archivowl;
 char * nombreArchivo = "WishList.txt";
-char sino;
+int sino;
 char caracter;
 
 void wishList(){
@@ -19,9 +18,9 @@ void wishList(){
     printf("\n");
     printf("Seleccione una opcion:\n");
     printf("\n");
-    printf("1) Agregar libros \t2) Ver Mi Wish List\n");
+    printf("[1] Agregar libros \t[2] Ver Mi Wish List\n");
     printf("\n");
-    printf("\t\t\t\t3) Salir\n");
+    printf("\t\t\t\t[3] Salir\n");
     printf("\n");
     printf("Seleccion: ");
     scanf("%d", &seleccion);
@@ -30,18 +29,19 @@ void wishList(){
     switch (seleccion) {
         case 1:
             
+            while (opcion !=5) {
                 printf("\n");
                 printf("\n");
                 printf("Ingrese el titulo del libro\n");
                 printf("Titulo: ");
-                scanf("%s", titulo);
+                scanf("%[^\n]", titulo);
                 fflush(stdin);
                 printf("\n");
                 apTitulo = titulo;
                 printf("Ingrese el autor del libro\n");
                 printf("Tip: Puedes ingresar el nombre de la siguiente forma: A.Turing\n");
                 printf("Autor: ");
-                scanf("%s", autor);
+                scanf("%[^\n]", autor);
                 fflush(stdin);
                 apAutor = autor;
                 printf("\n");
@@ -56,14 +56,27 @@ void wishList(){
                 fprintf(archivowl, "Autor: %s \n", autor);
                 fprintf(archivowl, "---------------------\n");
                 fclose(archivowl);
+                
                 printf("\n");
-                printf("--------------------------------------------------\n");
                 printf("\n");
+                printf("¿Desea agregar otro libro?\n");
+                printf("Si [1] \tNo [2]\n");
+                scanf("%d", &sino);
+                fflush(stdin);
+                if (sino == 'n') {
+                    printf("\n");
+                    printf("--------------------------------------------------\n");
+                    printf("\n");
+                    opcion = 5;
+                    return;
+                }
+                
+            }
             break;
         case 2:
             printf("\n");
             printf("\n");
-            printf("\t//Wish List//\n");
+            printf("\t/// Wish List ///\n");
             printf("\n");
             
             archivowl = fopen(nombreArchivo, "r");

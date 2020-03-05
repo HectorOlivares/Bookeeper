@@ -6,8 +6,6 @@
 //  Copyright © 2019 Héctor Olivares. All rights reserved.
 //
 
-#include <stdio.h>
-
 int opci,segu;
 
 void confi(){
@@ -17,7 +15,7 @@ void confi(){
     printf("\n");
     printf("Seleccione una opcion:\n");
     printf("\n");
-    printf("1) Reset \t2) Contacto \t3) Salir\n");
+    printf("[1] Reset \t[2] Contacto \t[3] Salir\n");
     printf("\n");
     printf("Seleccion: ");
     scanf("%d", &seleccion);
@@ -29,9 +27,9 @@ void confi(){
             printf("\n");
             printf("Que lista desea resetear?\n");
             printf("\n");
-            printf("1) Mi Biblioteca \t2) Libros leidos \t3) Wish List \n");
-		printf("\n");
-		printf("Seleccion: ");
+            printf("[1] Mi Biblioteca \t[2] Libros leidos \t[3] Wish List \n");
+            printf("\n");
+            printf("Seleccion: ");
             scanf("%d", &opci);
             fflush(stdin);
             switch (opci) {
@@ -75,7 +73,6 @@ void confi(){
                         printf("\n");
                         printf("--------------------------------------------------\n");
                         printf("\n");
-			b = 0;
                         archivoll = fopen("LibrosLeidos.txt", "w");
                         if (archivoll == NULL){
                             perror("Error al abrir el archivo\n");
