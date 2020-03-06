@@ -36,7 +36,7 @@ El menú de Mi Biblioteca es la opción principal donde podemos encontrar las op
 
 ### Agregar libros
 En esta opción podremos agregar libros a nuestra biblioteca.
-Al seleccionar esta opción nos pedira que ingresemos el titulo del libro que vamos agregar, después nos pedira que ingresemos el nombre del autor del libro con la recomendación de agregarlo con la primer letra de su nombre seguido de un punto y su apellido completo como se muestra a continuación: F.Nietzsche. Posteriormente el programa preguntara si desea agregar otro titulo más y dependiendo de la respuesta del usuario el programa pedira de nuevo los datos anteriores para el nuevo libro o nos mandara de nuevo al menú finalizando el proceso.
+Al seleccionar esta opción nos pedira que ingresemos el titulo del libro que vamos agregar, después nos pedira que ingresemos el nombre del autor del libro con la recomendación de agregarlo con la primer letra de su nombre seguido de un punto y su apellido completo como se muestra a continuación: **F.Nietzsche**. Posteriormente el programa preguntara si desea agregar otro titulo más y dependiendo de la respuesta del usuario el programa pedira de nuevo los datos anteriores para el nuevo libro o nos mandara de nuevo al menú finalizando el proceso.
 
 ### Mi biblioteca
 En esta opción podremos ver los libros de nuestra biblioteca.
