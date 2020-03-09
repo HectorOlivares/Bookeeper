@@ -51,7 +51,7 @@ En el menú de Libros Leídos podremos encontrar las opciones de termine un libr
 
 ### Termine un libro!
 En esta opción podremos agregar los libros que ya hemos terminado.
-Al seleccionar esta opción nos felicitara por haber concluido el libro y nos pedira que ingresemos el titulo del libro que vamos agregar, después nos pedira que ingresemos el nombre del autor del libro con la recomendación de agregarlo con la primer letra de su nombre seguido de un punto y su apellido completo como se muestra a continuación: A. Tarkovski. Posteriormente el programa preguntara si desea agregar otro titulo más y dependiendo de la respuesta del usuario el programa pedira de nuevo los datos anteriores para el nuevo libro o nos mandara de nuevo al menú finalizando el proceso.
+Al seleccionar esta opción nos felicitara por haber concluido el libro y nos pedira que ingresemos el titulo del libro que vamos agregar, después nos pedira que ingresemos el nombre del autor del libro con la recomendación de agregarlo con la primer letra de su nombre seguido de un punto y su apellido completo como se muestra a continuación: **A. Tarkovski**. Posteriormente el programa preguntara si desea agregar otro titulo más y dependiendo de la respuesta del usuario el programa pedira de nuevo los datos anteriores para el nuevo libro o nos mandara de nuevo al menú finalizando el proceso.
 ### Ver libros leídos
 En esta opción podremos ver los libros que ya hemos leído.
 Al seleccionar esta opción nos mostrará la lista de todos los libros que ya hemos leído mostrando el titulo del libro seguido del autor. Si no se ha agregado ningún libro, no se muestra nada y nos manda al menú directamente.
