@@ -118,6 +118,9 @@ void agregarLibros(){
             lYearRes = promedio(lYear, 12);
             printf("Haz leido al mes: %.1f libros\n", lYearRes);
             printf("\n");
+            printf("Presiona [enter] para continuar");
+            getchar();
+            printf("\n");
             printf("--------------------------------------------------\n");
             printf("\n");
             break;
