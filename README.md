@@ -34,7 +34,7 @@ Este manual tiene como fin guiar al usuario en su familiarización con el progra
 ## Biblioteca
 El menú de Mi Biblioteca es la opción principal donde podemos encontrar las opciones de agregar libros, ver mi biblioteca y el promedio de lectura. Cada una de estas opciones ejecuta un menú donde el usuario tendrá que ingresar los datos que se solicitan para empezar el proceso de la opción escogida.
 
-### Agregar libros
+  ### Agregar libros
 En esta opción podremos agregar libros a nuestra biblioteca.
 Al seleccionar esta opción nos pedira que ingresemos el titulo del libro que vamos agregar, después nos pedira que ingresemos el nombre del autor del libro con la recomendación de agregarlo con la primer letra de su nombre seguido de un punto y su apellido completo como se muestra a continuación: **F.Nietzsche**. Posteriormente el programa preguntara si desea agregar otro titulo más y dependiendo de la respuesta del usuario el programa pedira de nuevo los datos anteriores para el nuevo libro o nos mandara de nuevo al menú finalizando el proceso.
 
