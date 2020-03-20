@@ -11,15 +11,18 @@ Lenguaje de programación: **C**
 Este programa fue realizado por **[Héctor Olivares](https://twitter.com/HektorOlivares)** en el año 2019.
 
 ## Plataformas
+<p align="left">
+  <img width="80" height="18.85" src="Iconos/macosplat.png"/>
+</p>
 
+>Version de linux estable pronto
 
 
 ## Ejecución del programa
-
-Abre tu terminal 
-Dirigete hacia la carpeta donde guardaste
-Utiliza el comando gcc main.c -o bookeeper para compilar el programa.
-Por ultimo utiliza el comando ./bookeeper para ejecutar el programa. 
+1. Abre tu terminal 
+2. Desde tu terminal, dirigete hacia la carpeta donde se encuentra el archivo `main.c` (Puedes hacerlo con del comando `cd`)
+3. Utiliza el comando `gcc main.c -o bookeeper` para compilar el programa.
+4. Por ultimo utiliza el comando ` ./bookeeper ` para ejecutar el programa. 
 
 ## Contenido
 
