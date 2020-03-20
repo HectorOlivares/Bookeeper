@@ -15,9 +15,6 @@ Este programa fue realizado por **[Héctor Olivares](https://twitter.com/HektorO
   <img width="80" height="18.85" src="Iconos/macosplat.png"/>
 </p>
 
->Version de linux estable pronto
-
-
 ## Ejecución del programa
 1. Abre tu terminal 
 2. Desde tu terminal, dirigete hacia la carpeta donde se encuentra el archivo `main.c` (Puedes hacerlo con del comando `cd`)
