@@ -1,5 +1,5 @@
 //
-//  agregarLibros.h
+//  addBooks.h
 //  ProyectoFP
 //
 //  Created by Héctor Olivares on 16/11/19.

@@ -7,10 +7,10 @@
 //
 
 #include <stdio.h>
-#include "agregarLibros.h"
-#include "librosLeidos.h"
+#include "addBooks.h"
+#include "readBooks.h"
 #include "wishList.h"
-#include "confi.h"
+#include "settings.h"
 
 int opcion = 1;
 int seleccion = 0;
@@ -27,7 +27,7 @@ int main() {
         printf("\t\tBienvenido a Bookeeper\n");
         printf("\tPor favor, selecciona una opción:\n");
         printf("\n");
-        printf("\n");
+        printf("\n");   
         printf("\t[1] Mi biblioteca \t[2] Libros leidos\n");
         printf("\n");
         printf("[3] Wish List \t[4] Salir \t[5] Configuracion\n");
@@ -49,7 +49,7 @@ int main() {
                 break;
             case 4:
                 printf("\n");
-                printf("\tHasta luego!\n");
+                printf("Hasta luego!\n");
                 printf("\n");
                 printf("\n");
                 opcion = 0;

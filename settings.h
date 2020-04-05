@@ -1,5 +1,5 @@
 //
-//  confi.h
+//  settings.h
 //  ProyectoFP
 //
 //  Created by Héctor Olivares on 23/11/19.
