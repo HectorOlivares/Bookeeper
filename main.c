@@ -39,10 +39,10 @@ int main() {
         
         switch (seleccion) {
             case 1:
-                addBooks();
+                agregarLibros();
                 break;
             case 2:
-                readBooks();
+                librosLeidos();
                 break;
             case 3:
                 wishList();
@@ -55,7 +55,7 @@ int main() {
                 opcion = 0;
                 break;
             case 5:
-                settings();
+                confi();
                 break;
             default:
                 printf("Opción Incorrenta\n");
