@@ -10,11 +10,6 @@ Lenguaje de programación: **C**
 
 Este programa fue realizado por **[Héctor Olivares](https://twitter.com/HektorOlivares)** en el año 2019.
 
-## Plataformas
-<p align="left">
-  <img width="80" height="18.85" src="Iconos/macosplat.png"/>
-</p>
-
 ## Ejecución del programa
 
 1. Abre tú terminal.
