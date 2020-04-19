@@ -17,7 +17,7 @@ char titulo[100], autor[100], *apTitulo, *apAutor;
 
 float promedio(float a, float b);
 
-void agregarLibros(){
+void addBooks(){
     
     printf("\n");
     printf("--------------------------------------------------\n");

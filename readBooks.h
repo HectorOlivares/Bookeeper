@@ -16,7 +16,7 @@ char caracter;
 char titulo[100], autor[100], *apTitulo, *apAutor;
 int b;
 
-void librosLeidos(){
+void readBooks(){
     
     printf("\n");
     printf("--------------------------------------------------\n");

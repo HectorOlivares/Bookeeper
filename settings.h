@@ -8,7 +8,7 @@
 
 int opci,segu;
 
-void confi(){
+void settings(){
     
     printf("\n");
     printf("--------------------------------------------------\n");
