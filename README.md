@@ -85,4 +85,4 @@ Al seleccionar esta opción nos preguntara que lista es la que deseamos reinicia
 
 ### Contacto
 En esta opción podremos ver la forma de contactar al programador del programa.
-Al seleccionar esta opción nos mostrará el contacto del programador el cual podremos encontrar en Twitter como **[@HektorOlivares](https://twitter.com/HektorOlivares)** y en GitHub como **[@HectorOlivares](https://github.com/HectorOlivares)** donde podrás mandar un DM con tus opiniones, dudas o problemas con el programa.
+Al seleccionar esta opción nos mostrará el contacto del programador el cual podremos encontrar en Twitter como **[@hektorolivares](https://twitter.com/HektorOlivares)** y en GitHub como **[@hectorolivares](https://github.com/HectorOlivares)** donde podrás mandar un DM con tus opiniones, dudas o problemas con el programa.
