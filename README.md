@@ -14,7 +14,7 @@ Este programa fue realizado por **[Héctor Olivares](https://twitter.com/HektorO
 
 1. Abre tú terminal.
 2. Coloca la carpeta "bookshelf-master" en tú escritorio.
-2. Desde tú terminal dirígete hacia el escritorio con el comando ` cd/Desktop/bookshelf-master ` o ` cd/Escritorio/bookshelf-master `.
+2. Desde tú terminal dirígete hacia el escritorio con el comando ` cd ~/Desktop/bookshelf-master ` o ` cd ~/Escritorio/bookshelf-master `.
 3. Utiliza el comando `gcc main.c -o bookshelf` para compilar el programa.
 4. Por ultimo, utiliza el comando ` ./bookshelf ` para ejecutar el programa. 
 
