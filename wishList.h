@@ -1,10 +1,10 @@
-//
-//  wishList.h
-//  ProyectoFP
-//
-//  Created by Héctor Olivares on 16/11/19.
-//  Copyright © 2019 Héctor Olivares. All rights reserved.
-//
+/* *****************************************************************
+* wishList.h
+*
+* Author: Héctor Olivares
+* License: MIT
+*
+* *****************************************************************/
 
 FILE * archivowl;
 char * nombreArchivo = "WishList.txt";
