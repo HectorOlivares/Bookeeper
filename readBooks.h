@@ -1,10 +1,10 @@
-//
-//  readBooks.h
-//  ProyectoFP
-//
-//  Created by Héctor Olivares on 16/11/19.
-//  Copyright © 2019 Héctor Olivares. All rights reserved.
-//
+/* *****************************************************************
+* readBooks.h
+*
+* Author: Héctor Olivares
+* License: MIT
+*
+* *****************************************************************/
 
 FILE * archivoll;
 char * nombrell = "LibrosLeidos.txt";
