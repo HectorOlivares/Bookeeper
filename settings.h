@@ -1,10 +1,10 @@
-//
-//  settings.h
-//  ProyectoFP
-//
-//  Created by Héctor Olivares on 23/11/19.
-//  Copyright © 2019 Héctor Olivares. All rights reserved.
-//
+/* *****************************************************************
+* settings.h
+*
+* Author: Héctor Olivares
+* License: MIT
+*
+* *****************************************************************/
 
 int opci,segu;
 
@@ -126,7 +126,11 @@ void settings(){
             printf("\n");
             printf("\n");
             printf("Contacto:\n");
-            printf("@HektorOlivares\n");
+            printf("\n");
+            printf("GitHub: @hectorolivares\n");
+            printf("\n");
+            printf("Presiona [enter] para continuar");
+            getchar();
             printf("\n");
             printf("\n");
         case 3:
