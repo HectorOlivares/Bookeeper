@@ -1,10 +1,10 @@
-//
-//  addBooks.h
-//  ProyectoFP
-//
-//  Created by Héctor Olivares on 16/11/19.
-//  Copyright © 2019 Héctor Olivares. All rights reserved.
-//
+/* *****************************************************************
+* addBooks.h
+*
+* Author: Héctor Olivares
+* License: MIT
+*
+* *****************************************************************/
 
 FILE * archivoal;
 char * nombreal = "MiBiblioteca.txt";
