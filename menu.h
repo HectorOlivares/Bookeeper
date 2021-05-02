@@ -1,10 +1,10 @@
-//
-//  menu.h
-//  ProyectoFP
-//
-//  Created by Héctor Olivares on 19/04/20.
-//  Copyright © 2020 Héctor Olivares. All rights reserved.
-//
+/* *****************************************************************
+* menu.h
+*
+* Author: Héctor Olivares
+* License: MIT
+*
+* *****************************************************************/
 
 #include <stdio.h>
 #include "addBooks.h"
@@ -20,17 +20,13 @@ int i = 0;
 void menu(){
     
     while (opcion) {
-<<<<<<< HEAD
         printf("\n");
         printf("\t\t  ********************  \n");
         printf("\t\t  **                **  \n");
         printf("\t\t  **    Bookshelf   **  \n");
         printf("\t\t  **                **  \n");
         printf("\t\t  ********************  \n");
-=======
-        printf("\t\t /// Bookshelf ///\n");
         printf("\n");
->>>>>>> c6540f809db27067e3590e8e2704229f7c2789bd
         printf("\n");
         printf("\t\tBienvenido a Bookshelf\n");
         printf("\tPor favor, selecciona una opción:\n");
@@ -66,7 +62,11 @@ void menu(){
                 settings();
             break;
             default:
-                printf("Opción Incorrenta\n");
+                printf("\n");
+                printf("(!) Opción no valida\n");
+                printf("\n");
+                printf("--------------------------------------------------\n");
+                printf("\n");
                 printf("\n");
             break;
         }
