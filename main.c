@@ -1,10 +1,10 @@
-//
-//  main.c
-//  ProyectoFP
-//
-//  Created by Héctor Olivares on 03/11/19.
-//  Copyright © 2019 Héctor Olivares. All rights reserved.
-//
+/* *****************************************************************
+* main.c
+*
+* Author: Héctor Olivares
+* License: MIT
+*
+* *****************************************************************/
 
 #include <stdio.h>
 #include "menu.h"
