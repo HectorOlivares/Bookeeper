@@ -20,12 +20,17 @@ int i = 0;
 void menu(){
     
     while (opcion) {
+<<<<<<< HEAD
         printf("\n");
         printf("\t\t  ********************  \n");
         printf("\t\t  **                **  \n");
         printf("\t\t  **    Bookshelf   **  \n");
         printf("\t\t  **                **  \n");
         printf("\t\t  ********************  \n");
+=======
+        printf("\t\t /// Bookshelf ///\n");
+        printf("\n");
+>>>>>>> c6540f809db27067e3590e8e2704229f7c2789bd
         printf("\n");
         printf("\t\tBienvenido a Bookshelf\n");
         printf("\tPor favor, selecciona una opción:\n");
